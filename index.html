@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <div class="container-fluid col-11">
+
+        <nav class="navbar navbar-expand-lg" id="navbar">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="estimation_calculator.html">Estimation Calculator</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <div class="container table-responsive">
+            <form>
+                <table class="table table-striped mb-3" style=" width:100%">
+                    <thead>
+                        <tr>
+                            <th style="width:30%">Services</th>
+                            <th style="width:12%">Unit</th>
+                            <th style="width:58%">Description</th>
+                        </tr>
+                    </thead>
+
+                    <tr>
+                        <table class="table table-borderless mb-3 " id="mytable">
+
+                            <tr style="width:100%">
+                                <td colspan="3">
+                                    <b id="type">Design</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30%">Interior Design</td>
+                                <td style="width:12%">per title</td>
+                                <td style="width:58%"></td>
+                            </tr>
+                            <tr>
+                                <td>Cover Design</td>
+                                <td>per cover</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Cover Mechanical Processing</td>
+                                <td>per cover</td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </tr>
+                    <tr><br></tr>
+                    <tr>
+                        <table class=" table table-borderless mb-3 " id="mytable">
+                            <tr style="width:100%">
+                                <td colspan="3">
+                                    <b id="type">Composition</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30%">Composition ‐ Simple</td>
+                                <td style="width:12%">per book page</td>
+                                <td style="width:58%">1‐ or 2‐column; 30‐60% art as a percentage of book pages; tables,
+                                    graphic
+                                    treatments;
+                                    minimal box features</td>
+                            </tr>
+                            <tr>
+                                <td>Composition ‐ Moderate</td>
+                                <td>per book page</td>
+                                <td>1‐ or 2‐column; very few Math or chemical equations, >60% art as a percentage of
+                                    total
+                                    book pages; >50% special features; Recurring box features</td>
+                            </tr>
+                            <tr>
+                                <td>Composition ‐ Complex</td>
+                                <td>per book page</td>
+                                <td>1‐ or 2‐column; Heavy Math or chemical equations, >60% art as a percentage of total
+                                    book
+                                    pages; >50% special features; Recurring box features</td>
+                            </tr>
+                            <tr>
+                                <td>Composition Alterations</td>
+                                <td>per hour</td>
+                                <td>above 15% alterations</td>
+                            </tr>
+                        </table>
+                    </tr>
+                    <tr><br></tr>
+                    <tr>
+                        <table class="table table-borderless mb-3" id="mytable">
+                            <tr style="width:100%">
+                                <td colspan="3">
+                                    <b id="type">Project Management</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30%">Project Management</td>
+                                <td style="width:12%">per book page</td>
+                                <td style="width:58%">Includes author contact, schedule coordination,
+                                    hiring/supervising/coordinating of
+                                    copyeditor, editorial proofreader, indexer, trafficking of materials, art
+                                    management,
+                                    quality control, permission review and weekly status reports</td>
+                            </tr>
+                        </table>
+                    </tr>
+                    <tr><br></tr>
+                    <tr>
+                        <table class="table table-borderless  mb-3" id="mytable">
+                            <tr style="width:100%">
+                                <td colspan="3">
+                                    <b id="type">Illustrations</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30%">Render ‐ simple</td>
+                                <td style="width:12%">per image</td>
+                                <td style="width:58%">Includes charts or graphs with a simple to moderate level of data,
+                                    diagrams with
+                                    simple
+                                    elements (e.g., shapes, equations, text), and simple technical illustrations. A
+                                    clean
+                                    manuscript has been supplied.</td>
+                            </tr>
+                            <tr>
+                                <td>Render ‐ moderate</td>
+                                <td>per image</td>
+                                <td>Includes charts or graphs with a complex level of data, diagrams with moderate
+                                    elements
+                                    (i.e., food items, single animals, etc.), simple maps, simple anatomy (e.g.,
+                                    singular
+                                    bones, stomach, kidneys), and
+                                    moderate technical illustrations. Art manuscript and style require some
+                                    creativity/research.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Render ‐ complex</td>
+                                <td>per image</td>
+                                <td>Includes charts or graphs with a high level of complexity, diagrams with complex
+                                    elements
+                                    (e.g., people, multiple animals, anatomy), complex technical illustrations, detailed
+                                    maps.
+                                    Art manuscript and style require a high level of creativity/research.</td>
+                            </tr>
+
+                        </table>
+                    </tr>
+                    <tr><br></tr>
+                    <tr>
+                        <table class="table table-borderless mb-3" id="mytable">
+
+                            <tr style="width:100%">
+                                <td colspan="3">
+                                    <b id="type">Pickup with Modification</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30%">
+                                    Pickup with Modifications ‐ simple
+                                </td>
+                                <td style="width:12%">per image</td>
+                                <td style="width:58%">
+                                    Simple style update (as dictated by the client instructions); 1–10 simple to
+                                    moderate text/leader/arrow changes.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pickup with Modifications ‐ moderate</td>
+                                <td>per image</td>
+                                <td>Moderate style update (as dictated by the client instructions); 11+ moderate
+                                    text/leader/arrow changes.</td>
+                            </tr>
+                            <tr>
+                                <td>Pickup with Modifications  - complex
+                                </td>
+                                <td>per image
+                                </td>
+                                <td>Complex style update (as dictated by the client instructions); major modifications required (e.g., complex recolorization, complex crop of provided piece of art, minor redrawing)
+                                </td>
+                            </tr>
+                        </table>
+                    </tr>
+                    <tr><br></tr>
+                    <tr>
+                        <table class="table table-borderless mb-3" id="mytable"></table>
+                    </tr>
+                    </tbody>
+                </table>
+
+        </div>
+
+
+        <div class="row">
+            <div class="container">
+                <div class="container1">
+
+                    <div class="center">
+
+                        <button type="submit" formaction="estimation_calculator.html" class="btn btn-primary">Cost
+                            Estimater</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        </form>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

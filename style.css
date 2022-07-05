@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,300,400);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* ---Navigation ---*/
+#navbar {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+
+#navbar1 {
+    position: sticky;
+    top: 0;
+    background: #0A4C76;
+    z-index: 10;
+
+}
+
+
+.nav-link {
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #0A4C76;
+    transition: .1s;
+}
+
+#nav-link1 {
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+
+}
+
+#nav-link1.nav-link:hover {
+    border-bottom: 2px solid #0A4C76;
+    transition: .1s;
+}
+
+/*---------------------------------------------*/
+
+li {
+    padding: 5px;
+}
+
+
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* -----------Home---------------*/
+#title {
+    font-style: bold;
+    font-weight: 500px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+label {
+    font-style: bold;
+    color: #0A4C76;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-------------Table-----------------*/
+
+#mytable {
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#mytable tr:nth-child(even) {
+    background-color: #eaf7ff;
+}
+
+
+#type label {
+
+    font-size:larger;
+    font-weight:bolder;
+    color: #0A4C76;
+
+}
+
+thead {
+    background-color: #0A4C76;
+    color: #fff;
+    font-size: large;
+}
+
+
+table {
+    padding: 20px;
+    color: rgba(36, 36, 56, 0.945);
+    background-color: white;
+
+}
+
+/*---------------------------------------------*/
+/* input box and dropdown */
+input,
+select {
+    border: 1px solid #ccc;
+    border-bottom: 3px solid #ccc;
+    padding: 5px 9px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    color: #333;
+    ;
+
+}
+
+input {
+    width: 80px;
+}
+
+input[type=submit],
+a.button {
+    border-radius: 5px;
+    background: #4dcc43;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+
+
+input[type=submit]:hover,
+a.button:hover {
+    background: #3fad37;
+}
+
+.container1 { 
+    height: 50px;
+    position: relative;
+   
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  #name,#email{
+    border: 1px solid #ccc;
+    border-bottom: 3px solid #ccc;
+    padding: 5px 9px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    color: #0A4C76;
+    ;
+    width: 300px;
+  } 
+  #namel,#emaill{
+   
+    color: white;
+  }
+  #error
+  {
+    color: rgb(248, 106, 106);
+  }
